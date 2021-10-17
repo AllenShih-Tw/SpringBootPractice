@@ -9,10 +9,10 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @ComponentScan({"com.example.demo","com.example.model","com.example.controller","com.example.service","com.example.repository"})
 @EntityScan({"com.example.demo","com.example.model","com.example.controller","com.example.service","com.example.repository"})
-public class SpringBootClassApplicationTests extends SpringBootServletInitializer {
+public class SpringProject2026Application extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootClassApplicationTests.class, args);
+		SpringApplication.run(SpringProject2026Application.class, args);
 	}
 
 }
